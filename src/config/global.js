@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Sistemas operativos de red',
+    descripcionCurso:
+      'El despliegue e implantación de sistemas, requiere una serie de componentes de infraestructura y plataforma tecnológica, dentro de los cuales se encuentran los sistemas operativos, quienes en un entorno cliente-servidor, tienen la responsabilidad de alojar las aplicaciones y servicios que estarán dispuestos para el acceso desde los clientes.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,12 +36,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sistemas y arquitectura cliente/servidor',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Componentes de una arquitectura cliente/servidor',
             hash: 't_1_1',
           },
         ],
@@ -45,13 +50,59 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sistemas operativos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Características de un sistema operativo',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos de sistemas operativos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Sistemas operativos tipo cliente',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Sistemas operativos de red',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Licenciamiento de <i>software</i> a nivel de sistemas operativos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Licencias de Windows',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Licenciamiento en Linux',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Licenciamiento MacOS',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Aplicaciones y servicios',
         desarrolloContenidos: true,
       },
     ],
