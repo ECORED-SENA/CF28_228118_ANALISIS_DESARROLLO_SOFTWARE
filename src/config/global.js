@@ -153,32 +153,118 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Sistemas operativos de red',
+      referencia:
+        'Morales Lagunas, B. J. (2019). <i>Sistemas operativos de red (video)</i>. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=js6LhkIx2oo&feature=youtu.be',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Cliente',
+      significado:
+        'son las computadoras que acceden a los servidores, haciendo peticiones y solicitudes de acceso a recursos y servicios alojados o dispuestos en los servidores.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'DHCP',
+      significado: 'protocolo de configuración dinámica de <i>host</i>.',
+    },
+    {
+      termino: 'DNS',
+      significado: 'servidor de nombres de dominio.',
+    },
+    {
+      termino: 'GPL',
+      significado:
+        'licencia pública general de GNU o más conocida por su nombre en inglés, GPL.',
+    },
+    {
+      termino: 'GNU',
+      significado: '<i>General Public License.</i>',
+    },
+    {
+      termino: 'NOS',
+      significado:
+        '<i>Network Operating Systems</i> (sistemas operativos de red).',
+    },
+    {
+      termino: 'Servidor',
+      significado:
+        'es una computadora con potente <i>hardware</i> y <i>software</i> especializado y dispuesto para atender y dar respuesta a las peticiones o solicitudes que hacen las otras computadoras, las cuales acceden a los recursos o servicios ofrecidos por el servidor.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Adeva, R. (2021, 4 febrero). Todo sobre Linux, el sistema operativo de código abierto. ADSLZone. ',
+      link: 'https://www.adslzone.net/reportajes/software/que-es-linux/',
+    },
+    {
+      referencia: 'Apple, (s.f). Disponible en: ',
+      link: 'https://www.apple.com/mx/legal/sla/',
+    },
+    {
+      referencia:
+        'Carretero Pérez, J., De Miguel Anasagasti, P., García Carballeira, F., & Pérez Costoya, F. (2001). Sistemas Operativos. Una Visión Aplicada. Mac Graw Hill. ',
       link: '',
+    },
+    {
+      referencia:
+        'Debian. (s. f.). Debian -- Contrato social de Debian. https://www.debian.org. Recuperado 31 de mayo de 2021, de. ',
+      link: 'https://www.debian.org/social_contract.es.html',
+    },
+    {
+      referencia:
+        'Fm, Y. (2021, 30 marzo). 31 distribuciones Linux para elegir bien la que más necesitas. Genbeta. ',
+      link:
+        'https://www.genbeta.com/linux/31-distribuciones-linux-para-elegir-bien-que-necesitas-1',
+    },
+    {
+      referencia:
+        'Free Software Foundation. (s. f.). Licencias - Proyecto GNU - Free Software Foundation. El sistema operativo GNU. Recuperado 31 de mayo de 2021, de. ',
+      link: 'https://www.gnu.org/licenses/licenses.es.html',
+    },
+    {
+      referencia:
+        'Naty, L. (2004). Sistemas operativos. Instituto Tecnológico Superior de Acayucan. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Open source initiative. (s. f.). The 3-Clause BSD License | Open Source Initiative. Opensource.Org. Recuperado 31 de mayo de 2021, de. ',
+      link: 'https://opensource.org/licenses/BSD-3-Clause',
+    },
+    {
+      referencia:
+        'Rafino, M. S. (2000, 23 septiembre). Sistemas Operativos, de. ',
+      link: 'https://concepto.de/sistema-operativo/',
+    },
+    {
+      referencia:
+        'Rodríguez Ramírez, A. M., & Obando Ortiz, F. R. (2005). Análisis comparativo de sistemas operativos de red (Bachelor"s thesis, QUITO/PUCE/2005). ',
+      link: '',
+    },
+    {
+      referencia:
+        'Sistemas, S. (2016, 24 octubre). Tipos de licencia en Windows. Solvetic. ',
+      link:
+        'https://www.solvetic.com/page/recopilaciones/s/profesionales/tipos-de-licencias-windows-oem-retail-volumen',
+    },
+    {
+      referencia: 'Sotés, J. D. OTROS SISTEMAS OPERATIVOS EN RED. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Stallings, W., Aguilar, L. J., Dodero, J. M., Torres, E., & Mora, M. K. (1997). Sistemas operativos (Vol. 732). Prentice Hall. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Zuta, J. A. (2011). Tipos de licencias para software - Monografias.com. Monografias.com. ',
+      link:
+        'https://www.monografias.com/trabajos88/tipos-licencias-software/tipos-licencias-software.shtml',
     },
   ],
   creditos: [
@@ -201,8 +287,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jonathan Guerrero Astaiza',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -211,40 +303,40 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y Producción audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador de Recursos Educativos Digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador de Recursos Educativos Digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
