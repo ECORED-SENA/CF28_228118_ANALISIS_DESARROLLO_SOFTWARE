@@ -25,7 +25,7 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Servidor")
             .col-12
-              p.mb-0 Es una computadora bastante potente, con hardware y software especializado, además, dispuesta para atender y dar respuesta a las peticiones o solicitudes que hacen las otras computadoras, quienes acceden a los recursos o servicios ofrecidos por el servidor, es decir, están al servicio de otras computadoras. Los servidores se utilizan para gestionar los recursos de una red.
+              p.mb-0 Es una computadora bastante potente, con #[i hardware] y #[i software] especializado, además, dispuesta para atender y dar respuesta a las peticiones o solicitudes que hacen las otras computadoras, quienes acceden a los recursos o servicios ofrecidos por el servidor, es decir, están al servicio de otras computadoras. Los servidores se utilizan para gestionar los recursos de una red.
           .row(titulo="Cliente")
             .col-12
               p.mb-0 Son las computadoras quienes acceden a los servidores, haciendo peticiones y solicitudes de acceso a recursos y servicios alojados o dispuestos en los servidores.
@@ -65,7 +65,7 @@
                       .col-5
                         img(src='@/assets/curso/tema1/img4.svg' alt='AvatarTop')
                     p.text-center #[b Cliente]
-                    p.text-center.mb-0 Se refiere a un demandante de servicios, es un dispositivo quien envía las peticiones y solicitudes al servidor, este cliente puede ser un ordenador como también una aplicación, la cual requiere información proveniente de la red para funcionar.
+                    p.text-center.mb-0 Se refiere a un demandante de servicios, es un dispositivo que envía las peticiones y solicitudes al servidor, este cliente puede ser un ordenador como también una aplicación, la cual requiere información proveniente de la red para funcionar.
                   .tarjeta.color-acento-botones.p-4
                     .row.justify-content-center.mb-3
                       .col-5
@@ -77,17 +77,17 @@
                       .col-5
                         img(src='@/assets/curso/tema1/img6.svg' alt='AvatarTop')
                     p.text-center #[b Servicios]
-                    p.text-center.mb-0 Es un conjunto de información que busca responder las necesidades de un cliente, estos pueden ser de diferentes tipos como mensajes, música, software, bases de datos, videos, entre otros.
+                    p.text-center.mb-0 Es un conjunto de información que busca responder las necesidades de un cliente, estos pueden ser de diferentes tipos como mensajes, música, #[i software], bases de datos, videos, entre otros.
           .row.mb-5
             .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
               p Una máquina cliente, como un servidor, se refieren a computadoras que son usadas para diferentes propósitos.  
-              p El cliente es un computador pequeño con una estructura igual a la que se tiene en oficinas u hogares, y accede a un servidor o a los servicios que este ofrece a través de Internet o una red interna (LAN). Un claro ejemplo a este caso es la forma en que trabaja una empresa con diferentes computadores, donde cada uno de ellos se conecta a un servidor para poder obtener archivos de una base de datos o servicios, ya sea correos electrónicos o aplicaciones.
+              p El cliente es un computador pequeño con una estructura igual a la que se tiene en oficinas u hogares, y accede a un servidor o a los servicios que este ofrece a través de Internet o una red interna (LAN). Un claro ejemplo de este caso es la forma en que trabaja una empresa con diferentes computadores, donde cada uno de ellos se conecta a un servidor para poder obtener archivos de una base de datos o servicios, ya sean correos electrónicos o aplicaciones.
               .row
                 .col-auto.d-none.d-md-block
                   figure.mt-1
                     img(src='@/assets/curso/tema1/img7.svg', style="width:80px" alt='').m-auto
                 .col
-                  p.mb-0 El servidor al igual que el cliente, es una computadora, pero con la diferencia que tiene una gran capacidad que le permite almacenar gran cantidad de diversos archivos, o correr varias aplicaciones en simultáneo, para así nosotros los clientes poder acceder los servicios.
+                  p.mb-0 El servidor, al igual que el cliente, es una computadora, pero con la diferencia de que tiene una gran capacidad que le permite almacenar gran cantidad de diversos archivos, o correr varias aplicaciones en simultáneo, para así nosotros los clientes podamos acceder los servicios.
             .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema1/img4.png', style="width:490px" alt='').m-auto

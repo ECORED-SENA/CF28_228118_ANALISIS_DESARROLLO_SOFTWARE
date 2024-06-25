@@ -164,7 +164,7 @@
               .row.justify-content-center
                 .col-lg-7.order-2.order-lg-1
                   p #[b Microsoft Windows]
-                  p De los más populares que existen, no solo por uso en el hogar si no a nivel corporativo o empresarial, se trata de un conjunto de distribuciones o entornos operativos gráficos basados en un estándar llamado WIMP (#[i Windows Icon Mouse Pointer]), siendo esta su principal característica, porque funciona a partir de una interfaz gráfica basada en ventanas y el uso del mouse, quien a través de un puntero, permite la ejecución de las tareas. Entre las distribuciones de este sistema operativo más populares en los últimos años, debido a que en su evolución y desarrollo han existido muchas otras, se tiene:
+                  p De los más populares que existen, no solo por uso en el hogar sino a nivel corporativo o empresarial, se trata de un conjunto de distribuciones o entornos operativos gráficos basados en un estándar llamado WIMP (#[i Windows Icon Mouse Pointer]), siendo esta su principal característica, porque funciona a partir de una interfaz gráfica basada en ventanas y el uso del #[i mouse], quien a través de un puntero, permite la ejecución de las tareas. Entre las distribuciones de este sistema operativo más populares en los últimos años, debido a que en su evolución y desarrollo han existido muchas otras, se tiene:
                   ol.lista-ol--cuadro
                     li.d-flex
                       .lista-ol--cuadro__vineta
@@ -193,7 +193,7 @@
               .row.justify-content-center
                 .col-lg-7.order-2.order-lg-1
                   p #[b Mac OS]
-                  p Es el sistema operativo de los computadores Macintosh de Apple, también conocido como OSX o Mac OSX. Basado en Unix, desarrollado y vendido en computadores Apple desde 2002, este es un sistema operativo muy popular entre los desarrolladores de software, de videojuegos y de aplicaciones móviles.
+                  p Es el sistema operativo de los computadores Macintosh de Apple, también conocido como OSX o Mac OSX. Basado en Unix, desarrollado y vendido en computadores Apple desde 2002, este es un sistema operativo muy popular entre los desarrolladores de #[i software], de videojuegos y de aplicaciones móviles.
                 .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2 
                   figure
                     img(src='@/assets/curso/tema2/img9.png', style="width:430px" alt='').m-auto
@@ -217,7 +217,7 @@
               .row.justify-content-center
                 .col-lg-7.order-2.order-lg-1
                   p #[b Linux]
-                  p Es un sistema operativo libre y gratuito. Si bien este sistema operativo no es tan popular a nivel de usuario final en sus computadoras cliente, en los últimos años a nivel de desarrolladores de software y personal de seguridad o infraestructura de TI usan con mayor frecuencia distribuciones y versiones de Linux construidas bajo la filosofía de ser usadas por usuario final, sin embargo, Linux como tal es un sistema operativo que por sus características tiene la posibilidad de funcionar, sea como cliente entregando unas distribuciones con interfaces muy intuitivas y de fácil utilización o como servidor según se requiera. Dentro de las distribuciones más populares a nivel de cliente, se encuentran: 
+                  p Es un sistema operativo libre y gratuito. Si bien este sistema operativo no es tan popular a nivel de usuario final en sus computadoras cliente, en los últimos años a nivel de desarrolladores de #[i software] y personal de seguridad o infraestructura de TI usan con mayor frecuencia distribuciones y versiones de Linux construidas bajo la filosofía de ser usadas por usuario final, sin embargo, Linux como tal es un sistema operativo que por sus características tiene la posibilidad de funcionar, sea como cliente entregando unas distribuciones con interfaces muy intuitivas y de fácil utilización o como servidor según se requiera. Dentro de las distribuciones más populares a nivel de cliente, se encuentran: 
                   ol.lista-ol--cuadro
                     li.d-flex
                       .lista-ol--cuadro__vineta
@@ -259,12 +259,12 @@
               p.mb-0 Los sistemas operativos de red son aquellos que permiten la interconexión de diferentes computadoras que ofician como clientes, quienes acceden a los recursos o servicios ofrecidos o compartidos por el servidor, requieren estar conectados a redes de computadoras, por eso son conocidos como NOS (#[i Network Operating Systems]).
             .col-lg-8(data-aos="fade-left")
               .row.justify-content-center
-                .col-10.col-lg-auto.px-0
+                .col-10.col-lg-auto.px-0.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema2/img13.png', style="width:300px" alt='').m-auto
                 .col-10.col-lg.bg-c15
                   .p-4
-                    p.mb-0 Estos sistemas operativos se mantienen conectados o unidos a dos o más dispositivos, a través de algún medio de comunicación físico o no (medios de transmisión guiados o no guiados), con el propósito de poder compartir los recursos, sean hardware o software dispuestos en él.
+                    p.mb-0 Estos sistemas operativos se mantienen conectados o unidos a dos o más dispositivos, a través de algún medio de comunicación físico o no (medios de transmisión guiados o no guiados), con el propósito de poder compartir los recursos, sean #[i hardware] o #[i software] dispuestos en él.
           .row.mb-5
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               figure
@@ -290,7 +290,7 @@
               .p-4.bg-c16.h-100
                 figure.mb-4
                   img(src='@/assets/curso/tema2/img18.svg', style="width:50px" alt='').m-auto
-                p.text-center.mb-0 Soporte básico para sistemas operativos como protocolo y procesador, detección de hardware y multiprocesamiento.
+                p.text-center.mb-0 Soporte básico para sistemas operativos como protocolo y procesador, detección de #[i hardware] y multiprocesamiento.
             .col-8.col-md-6.col-lg-3.mb-4
               .p-4.bg-c16.h-100
                 figure.mb-4
@@ -365,7 +365,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img26.svg', style="width:70px" alt='').m-auto
                       .col
-                        p.mb-0 Todas las versiones y distribuciones antes mencionadas, obedecen a un nivel de funcionalidad que puede ser desplegado en estos sistemas operativos, es importante mencionar que este sistema operativo es de tipo propietario o de uso restringido y que para su uso se requiere del pago de una licencia, la cual dependerá del número de clientes que se van a conectar al servidor, del tipo de hardware sobre el cual será instalado, como número de procesadores, capacidad de memoria RAM y si estará desplegado en una máquina o servidor físico o virtual, todas estas son variables que influyen directamente en el costo de la licencia.  
+                        p.mb-0 Todas las versiones y distribuciones antes mencionadas, obedecen a un nivel de funcionalidad que puede ser desplegado en estos sistemas operativos, es importante mencionar que este sistema operativo es de tipo propietario o de uso restringido y que para su uso se requiere del pago de una licencia, la cual dependerá del número de clientes que se van a conectar al servidor, del tipo de #[i hardware] sobre el cual será instalado, como número de procesadores, capacidad de memoria RAM y si estará desplegado en una máquina o servidor físico o virtual, todas estas son variables que influyen directamente en el costo de la licencia.  
             .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema2/img15.png', style="width:350px" alt='').m-auto
@@ -387,13 +387,13 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Gratis")
             .col-12
-              p.mb-0 Linux es un sistema operativo gratuito y existe en el mercado gran cantidad de distribuciones enfocadas a diferentes tipos de usuarios, por lo que es fácil encontrar una solución que se acomode de cada una de las necesidades.
+              p.mb-0 Linux es un sistema operativo gratuito y existe en el mercado gran cantidad de distribuciones enfocadas a diferentes tipos de usuarios, por lo que es fácil encontrar una solución que se acomode a cada una de las necesidades.
           .row(titulo="Código abierto")
             .col-12
               p.mb-0 El código fuente está liberado para que cualquiera pueda desarrollar nuevas capacidades y adaptarlo a sus propias necesidades.
           .row(titulo="Seguro")
             .col-12
-              p.mb-0 La seguridad es uno de los elementos más destacable de Linux, si bien no se puede afirmar que es 100 % seguro, tiene algunas características clave, entre las que se relacionan las siguientes: contiene una arquitectura para el manejo de archivos, procesos y memoria, que no permite fácilmente la permanencia de virus o malware y es un sistema operativo personalizable, por lo que se puede permitir el uso de diferentes interfaces para su manipulación y no se limita a una única interfaz.
+              p.mb-0 La seguridad es uno de los elementos más destacables de Linux, si bien no se puede afirmar que es 100 % seguro, tiene algunas características clave, entre las que se relacionan las siguientes: contiene una arquitectura para el manejo de archivos, procesos y memoria, que no permite fácilmente la permanencia de virus o #[i malware] y es un sistema operativo personalizable, por lo que se puede permitir el uso de diferentes interfaces para su manipulación y no se limita a una única interfaz.
           .row(titulo="Multitarea")
             .col-12
               p.mb-0 Al igual que otros sistemas operativos presentes en el mercado actual, Linux permite el trabajo con múltiples aplicaciones al tiempo, como por ejemplo, navegar en Internet, mientras se tienen abiertas herramientas de procesamiento de texto, escuchar música, recibir notificaciones de correo electrónico entre otros. Sin embargo, se debe tener en cuenta que al no ser uno de los sistemas operativos más ampliamente utilizado por clientes tradicionales, existen limitantes respecto al tipo de aplicaciones disponibles.
@@ -421,7 +421,7 @@
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img27.svg', style="width:300px" alt='').m-auto
-    p.mb-5(data-aos="fade-right") Linux, al igual que todos los sistemas operativos, tiene una variedad de distribuciones que no dependen de un solo fabricante sino de diferentes empresas que toman el kernel del Linux y desarrollan sus propias distribuciones, dentro de las populares a nivel de servidor se encuentran (Fm, 2021):
+    p.mb-5(data-aos="fade-right") Linux, al igual que todos los sistemas operativos, tiene una variedad de distribuciones que no dependen de un solo fabricante sino de diferentes empresas que toman el #[i kernel] del Linux y desarrollan sus propias distribuciones. Dentro de las populares a nivel de servidor se encuentran (Fm, 2021):
     .row.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .row.justify-content-center
