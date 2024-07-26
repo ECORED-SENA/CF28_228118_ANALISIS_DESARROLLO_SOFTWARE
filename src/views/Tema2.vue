@@ -234,7 +234,7 @@
                     li.d-flex
                       .lista-ol--cuadro__vineta
                         span 4.
-                      | Debían
+                      | Debian
                     li.d-flex
                       .lista-ol--cuadro__vineta
                         span 5.
@@ -365,7 +365,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img26.svg', style="width:70px" alt='').m-auto
                       .col
-                        p.mb-0 Todas las versiones y distribuciones antes mencionadas, obedecen a un nivel de funcionalidad que puede ser desplegado en estos sistemas operativos, es importante mencionar que este sistema operativo es de tipo propietario o de uso restringido y que para su uso se requiere del pago de una licencia, la cual dependerá del número de clientes que se van a conectar al servidor, del tipo de #[i hardware] sobre el cual será instalado, como número de procesadores, capacidad de memoria RAM y si estará desplegado en una máquina o servidor físico o virtual, todas estas son variables que influyen directamente en el costo de la licencia.  
+                        p.mb-0 Todas las versiones y distribuciones antes mencionadas obedecen a un nivel de funcionalidad que puede ser desplegado en estos sistemas operativos, es importante mencionar que este sistema operativo es de tipo propietario o de uso restringido y que para su uso se requiere del pago de una licencia, la cual dependerá del número de clientes que se van a conectar al servidor, del tipo de #[i hardware] sobre el cual será instalado, como número de procesadores, capacidad de memoria RAM y si estará desplegado en una máquina o servidor físico o virtual, todas estas son variables que influyen directamente en el costo de la licencia.  
             .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema2/img15.png', style="width:350px" alt='').m-auto
